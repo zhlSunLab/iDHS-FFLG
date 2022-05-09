@@ -12,14 +12,14 @@ The required packages are as follows:
 * keras==2.2.5
 
 ## Usage
-
-# example for train
 ```shell
+# example for train
+
 python runner.py
-```
+
 # example for test
 
-```shell
+
 python test.py
 ```
 
