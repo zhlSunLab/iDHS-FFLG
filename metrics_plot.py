@@ -112,7 +112,8 @@ def analyze(temp, OutputDir):
 
         mean_tpr = np.mean(tprs, axis=0)
         mean_tpr[-1] = 1.0
-        mean_auc = auc(mean_fpr, mean_tpr)
+        # mean_auc = auc(mean_fpr, mean_tpr)
+        mean_auc = np.mean(aucs)
         std_auc = np.std(aucs)
         plt.plot(mean_fpr, mean_tpr, color='b',
                  lw=2, alpha=.8)
