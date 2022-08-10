@@ -1,5 +1,7 @@
 # iDHS-FFLG
+```text
 iDHS-FFLG: identifying DNase I hypersensitive sites by feature fusion and local-global feature extraction network
+```
 ## Requirement
 
 The code has been tested running under Python 3.6. 
